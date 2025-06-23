@@ -14,7 +14,7 @@ This project is composed of a Sofa plugin to embed a python interpreter into a S
 - developement package for python3 (python3-dev)
 
 ### In-tree build
-Add this directory path in `CMAKE_EXTERNAL_DIRECTORIES`.
+Add this directory path in the CMake variable `SOFA_EXTERNAL_DIRECTORIES`.
 
 NB: This plugin cannot be build through in-build process when the old SofaPython plugin is activated. To have both SofaPython3 and SofaPython you need to use out-of-tree build. 
 
